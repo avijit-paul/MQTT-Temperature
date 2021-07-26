@@ -1,0 +1,2 @@
+# MQTT-Temperature
+Use the BME280 sensor to accomplish the following: 1. Sense the temperature in Celcius every 5 seconds and publish it retained as a float (4 Bytes) on the MQTT topic mqtt/temp.  The MQTT broker has the IP address 192.168.*.*  Use the SSID xxxxxxx and the WPA2 key xxxxxxx to connect your ESP to the WiFi-network.  To convert from float to char[] you should use memcpy.  If you are interested, you can watch what‘s happening on MQTT using mosquitto_sub or MQTTfx.
