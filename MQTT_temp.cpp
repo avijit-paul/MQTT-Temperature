@@ -8,8 +8,8 @@
 // #define HOME 
 
 #ifdef HOME
-#define WIFI_SSID "xxxxxxxx"
-#define WIFI_PASSWORD "xxxxxxxx"
+#define WIFI_SSID "avijit_317b"
+#define WIFI_PASSWORD "dhaka1971dec16"
 #else
 #define WIFI_SSID "xxxxxxxxx"
 #define WIFI_PASSWORD "xxxxxxxxx"
